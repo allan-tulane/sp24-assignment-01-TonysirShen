@@ -12,7 +12,8 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 1. (2 pts ea) **Asymptotic notation** (12 pts)
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
-.  
+.  Yes it is
+2^(n+1) = 2^n + 2 which is $\in O(2^n)$
 .  
 .  
 .  
