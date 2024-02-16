@@ -18,14 +18,15 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
-.  
-.  
+.  No.
+.  $2^{2^n} = 2^n * 2^n$ which grow much faster than $2^n$
 .  
 .  
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
-.  
-.  
+.  No
+
+.  $n^{1.01}$ is not $\in O(n)$, while $O(\mathrm{log}^2 n)$ is in$ O(n)$, so it is impossible for $n^{1.01} \in O(\mathrm{log}^2 n)$
 .  
 .  
 
