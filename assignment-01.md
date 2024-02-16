@@ -26,22 +26,23 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
 .  No
 
-.  $n^{1.01}$ is not $\in O(n)$, while $O(\mathrm{log}^2 n)$ is in$ O(n)$, so it is impossible for $n^{1.01} \in O(\mathrm{log}^2 n)$
+.  $n^{1.01}$ is an asymmetrically increase function , while $O(\mathrm{log}^2 n)$ is  an asymmetrically decrease function, so as n goes larger $n^{1.01} \in O(\mathrm{log}^2 n)$
 .  
 .  
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
+.  Yes.
+.  The same reason as 1c.
+.  
+.  
+  - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?
+.  Yes
+.  $\sqrt{n}$ is in O(n), while $\mathrm{log} n)^3$ is above O(n)
 .  
 .  
 .  
-.  
-  - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
-.  
-.  
-.  
-.  
-  - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
+  - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?
+  - No, it should be $\sqrt{n} \in O((\mathrm{log} n)^3)$
 
 
 2. **SPARC to Python** (12 pts)
